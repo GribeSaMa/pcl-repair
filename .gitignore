@@ -1,0 +1,27 @@
+# Local launchers, game data, settings and reports
+/.minecraft/
+/PCL/
+/*.exe
+/repair-report.json
+/download-verification.json
+/patch-verification.json
+/tool-release.json
+
+# Build output and local evidence
+**/bin/
+**/obj/
+/tools/build/
+/tools/.dotnet-home/
+/tools/verification/
+/tests/evidence/
+/release/
+*.pdb
+*.tmp
+*.log
+
+# Local editor and agent settings
+/.vs/
+/.vscode/
+/.codex/
+/.agents/
+/.aws/
